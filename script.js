@@ -360,7 +360,7 @@ if (divider && leftPanel && rightPanel) {
 function initializeHighlighting() {
     const readingPanel = document.getElementById('readingPanel');
     const toolbar = document.getElementById('highlightToolbar');
-    const highlightRedBtn = document.getElementById('highlightRed');
+    const highlightYellowBtn = document.getElementById('highlightYellow');
     const highlightRemoveBtn = document.getElementById('highlightRemove');
     
     let selectedRange = null;
@@ -410,7 +410,7 @@ function initializeHighlighting() {
         }
     });
     
-    highlightRedBtn.addEventListener('click', (e) => {
+    highlightYellowBtn.addEventListener('click', (e) => {
         e.preventDefault();
         e.stopPropagation();
         if (selectedRange) {

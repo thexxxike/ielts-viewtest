@@ -1781,13 +1781,13 @@ body {
     transform: scale(1.1);
 }
 
-.highlight-btn.red {
-    background: #fee2e2;
-    color: #dc2626;
+.highlight-btn.yellow {
+    background: #fef9c3;
+    color: #ca8a04;
 }
 
-.highlight-btn.red:hover {
-    background: #fecaca;
+.highlight-btn.yellow:hover {
+    background: #fef08a;
 }
 
 .highlight-btn.black {
@@ -1800,7 +1800,7 @@ body {
 }
 
 .highlighted-text {
-    background-color: #ff4757;
+    background-color: #fef08a;
     border-radius: 3px;
     padding: 1px 3px;
     display: inline;
@@ -2050,5 +2050,9 @@ body {
     
     .highlight-toolbar {
         transform: scale(0.9);
+    }
+    
+    .section-full {
+        display: none;
     }
 }
