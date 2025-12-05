@@ -560,12 +560,28 @@ body {
         overflow-y: scroll !important;
     }
     
+    .right-panel .panel-content {
+        padding-bottom: 100px;
+    }
+    
     .split-divider {
         display: none;
     }
     
     .section-navigation {
         flex-shrink: 0;
+    }
+    
+    .submit-section {
+        margin-top: 24px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .section-submit-btn {
+        min-width: 180px;
+        padding: 12px 24px !important;
+        font-size: 15px !important;
     }
 }
 
@@ -708,6 +724,17 @@ body {
     .question-table th,
     .question-table td {
         padding: 10px 8px;
+    }
+    
+    .submit-section {
+        margin-top: 20px;
+        padding-top: 16px;
+    }
+    
+    .section-submit-btn {
+        min-width: 160px;
+        width: 100%;
+        max-width: 280px;
     }
 }
 
@@ -2073,5 +2100,14 @@ body {
     
     .section-full {
         display: none;
+    }
+    
+    .right-panel .panel-content {
+        padding-bottom: 120px;
+    }
+    
+    .submit-section {
+        position: relative;
+        z-index: 10;
     }
 }
